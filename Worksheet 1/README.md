@@ -1,4 +1,4 @@
 #Youtube Links
 
 ##All SpaceChem Videos
-https://www.youtube.com/channel/UCue9h6_7mPucs-1fDQYRAlQ
+https://www.youtube.com/playlist?list=PLaQnXjJ9lYjb0u7HhI6gw2eb1CIDCyc80
