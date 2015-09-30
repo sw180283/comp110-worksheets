@@ -1,2 +1,7 @@
-# comp130-game-platform-history
-A template for the COMP130 essay assignment on the history of game platforms.
+# comp110-worksheets
+A template for the COMP110 worksheets and the weekly reflective reports.
+
+##Week 2
+Content here
+
+etc.
