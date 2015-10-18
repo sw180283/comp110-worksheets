@@ -8,9 +8,11 @@ This can be demonstrated by achieving the High Performance for "Every Day Is The
 
 ##Week 2 - Strings
 Within COMP120 we began to experiment with the introduction of string text, which creates a word saved into the JES programme that is assigned to a particular value. For example if x = "apple", then the resulting _print_ function would look give this: 
->>>print x
+
+print x
 apple
 
 When combining this string format, it is possible to create more interesting uses when considering manipulation. When using a similar approach to maths in JES, the same can be done for combining strings. If x = "apple" and y = "fruit" then the resulting addition would print as:
->>>print x+y
+
+print x+y
 applefruit.
