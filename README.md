@@ -27,7 +27,8 @@ After being given research information about how to collect and reference our so
 
 After our presentation, I would have improved it with better group communication as there were some topics covered twice during individual research. Also, the length of our presentation could have been simplified which would have meant that there'd be no reading from the screen.
 
-##Week 4
+##Week 4 - Image Manipulation
+
 Additional uses for JES have been demonstrated, such as the use of turtles to generate images and also image maniupulation. Altering the colour and pixel position would have great use for our COMP120 assignment which required image manipulation.
 
 After being assigned our pair programming groups, we have decided to compelte the tasks of creating an interactive mood board and power-ups. Both of these tasks involve sci-fi genre so interest our group.
