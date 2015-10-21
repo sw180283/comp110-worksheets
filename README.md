@@ -38,3 +38,5 @@ After being assigned our pair programming groups, we have decided to compelte th
 To complete our COMP120 assignment, we learnt more about picture techniques including changing colours based on certain colour ranges, found colour distances between two colours and also restricted these changes to certain pixels. I found this task difficult, confusing my getColor function assuming that getColor(black) was required instead of the actually black.getColor().
 
 I also learned that when creating a function that requires the same colour more than once, and reuse code, the method could include the colour as a variable. E.g. def removeRedEye(color1,color2): where color1.getColor() is used instead.
+
+When learning the principle of Agile, including user stories, scrum & sprints; the process of backlog and assigning tasks are useful when maintaining achievable pace. Realistic pace is the goal not doubling work.
