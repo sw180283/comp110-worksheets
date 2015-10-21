@@ -33,4 +33,8 @@ Additional uses for JES have been demonstrated, such as the use of turtles to ge
 
 After being assigned our pair programming groups, we have decided to compelte the tasks of creating an interactive mood board and power-ups. Both of these tasks involve sci-fi genre so interest our group.
 
-##Week 5
+##Week 5 - Picture Techniques
+
+To complete our COMP120 assignment, we learnt more about picture techniques including changing colours based on certain colour ranges, found colour distances between two colours and also restricted these changes to certain pixels. I found this task difficult, confusing my getColor function assuming that getColor(black) was required instead of the actually black.getColor().
+
+I also learned that when creating a function that requires the same colour more than once, and reuse code, the method could include the colour as a variable. E.g. def removeRedEye(color1,color2): where color1.getColor() is used instead.
