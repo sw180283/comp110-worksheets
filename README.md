@@ -42,3 +42,11 @@ I also learned that when creating a function that requires the same colour more 
 When learning the principle of Agile, including user stories, scrum & sprints; the process of backlog and assigning tasks are useful when maintaining achievable pace. Realistic pace is the goal not doubling work. Brook's Law gives reason to Agile, more people joining a group half way through a project reduces pace.
 
 Later in the week, we used peer review to evaluate our essays. It was useful to see how other students had approached their essay, but allowed me to review others reviews using the marking criteria. This meant that I could use the feedback that other people gave me but also was not able to critically review my own work using the same marking criteria.
+
+##Week R - Sprint & Worksheet 2
+
+The creative coding task was difficult and I required a lot of research and additional material to make me feel confident to even start writing code. There were numerous occasations where I made a typo which was later corrected, but having caused a great amount of time wasted.
+
+While trying to keep the objective in mind, it was interesting to compare with what my peers had created and attempted to achieve and display using code and comments. Because my project was different to those that I saw, it made my task completely different so that I still had to be creative but gave me the ideas I needed to layout my code.
+
+Creating the worksheets was partly confusing, as the depth of a flowchart is debatable, and the content is rather vague. I attempts to create a concise yet description guide on the flow of my project. The same was done for the pseudo code.
