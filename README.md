@@ -84,3 +84,11 @@ Having studied A level maths, I understood the common complexity classes graphs.
 ##Week 10
 
 Today we used peer review to give guidance to the final draft of our essays. I found this a useful task as I should see how other students approach to the same or different topic essay.
+
+##Week 11
+
+I am struggling to use classes to improve the sophistication of my work. To make this work, I should seek guidance from lecturers and the internet. I am continuing to work through the Introduction to Python book to improve my understanding of Jython for my tinkering project.
+
+##Week 12
+
+While working on my game app, I found a useful tutorial which uses flappy bird as an example. It's use of false gravity, menu screen, scoring system and object collision are all the I need for my platformer game.
