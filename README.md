@@ -91,4 +91,4 @@ I am struggling to use classes to improve the sophistication of my work. To make
 
 ##Week 12
 
-While working on my game app, I found a useful tutorial which uses flappy bird as an example. It's use of false gravity, menu screen, scoring system and object collision are all the I need for my platformer game.
+While working on my game app, I found a useful tutorial which uses flappy bird as an example. It's use of false gravity, menu screen, scoring system and object collision are things I need for my platformer game.
