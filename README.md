@@ -49,7 +49,7 @@ The creative coding task was difficult and I required a lot of research and addi
 
 While trying to keep the objective in mind, it was interesting to compare with what my peers had created and attempted to achieve and display using code and comments. Because my project was different to those that I saw, it made my task completely different so that I still had to be creative but gave me the ideas I needed to layout my code.
 
-Creating the worksheets was partly confusing, as the depth of a flowchart is debatable, and the content is rather vague. I attempts to create a concise yet description guide on the flow of my project. The same was done for the pseudo code.
+Creating the worksheets was partly confusing, as the depth of a flowchart is debatable, and the content is rather vague. I attempt to create a concise yet description guide on the flow of my project. The same was done for the pseudo code.
 
 ##Week 6
 
@@ -65,7 +65,7 @@ I have also been assigned a new essay task so I should start researching and dra
 
 ##Week 7
 
-The additional information on referencing and how python uses classes was helpful in using them in my coding task. The use of access control was also useful in understand when and where a class can be referenced.
+The additional information on referencing and how python uses classes was helpful in using them in my coding task. The use of access control was also useful in understand when and where a class can be referenced. For my coding taskings, I should practise this method of using classes.
 
 ##Week 8
 
@@ -92,3 +92,17 @@ I am struggling to use classes to improve the sophistication of my work. To make
 ##Week 12
 
 While working on my game app, I found a useful tutorial which uses flappy bird as an example. It's use of false gravity, menu screen, scoring system and object collision are things I need for my platformer game.
+
+##Week 13
+
+The alterations to the gravity system are difficult to manage. I haven't been able to find a way to make the player stop their downward movements while allowing them to increase the velocity upwards when the button is pressed. In order to over come this issue, I'll atttempt to continue my research into other approaches to this gravity system while testing my code.
+
+##Week 14
+
+My audio project is starting to produce some effects which could be used in my game theme tune. I'm confused on how to implement the parsing of notes however with further investigation I should be able to include this in my source code.
+
+##Week 15
+
+For my tinkering graphics project, the obstacle of speed is reducing the engagement of the animations I am attempting to include. Perhaps if I did this task again, I would have used another program to increase speed.
+
+#Week 16
