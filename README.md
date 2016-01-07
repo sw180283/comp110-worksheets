@@ -106,3 +106,5 @@ My audio project is starting to produce some effects which could be used in my g
 For my tinkering graphics project, the obstacle of speed is reducing the engagement of the animations I am attempting to include. Perhaps if I did this task again, I would have used another program to increase speed.
 
 #Week 16
+
+With our peer reviews and lecturer feedback, I should be able to make the final edits to my tinkering projects. While I have struggled with the start of the course and time managment, I think that this project has improved my ability to review my peers work but also recognising mistakes in my own work.
