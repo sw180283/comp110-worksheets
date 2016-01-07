@@ -108,3 +108,29 @@ For my tinkering graphics project, the obstacle of speed is reducing the engagem
 ##Week 16
 
 With our peer reviews and lecturer feedback, I should be able to make the final edits to my tinkering projects. While I have struggled with the start of the course and time managment, I think that this project has improved my ability to review my peers work but also recognising mistakes in my own work.
+
+#Weakness
+
+##Time managament
+
+When working on projects, I struggle to manage my time proper. Attempting to balance my personal responsibilities with my work demands while maintaining time for myself to relax has been difficult to do. Finding set times to do work has improved my concentration during my work sessions and allowed for less guilty relaxation time.
+
+For example, I preferred to work on some projects more than others as the content was more enjoyment material to learn and so I was more confident in my research and knowledge. This meant that some projects were worked on less than others and so my knowledge didn't improve and my confidence was low.
+
+##Ability to critic others work
+
+It is more difficult to critic others work than your own as I'm not comfortable in marking people low or finding fault. It was a difficult task to do at points as I felt I didn't fully comprehend my own work, besides someone else. This made me feel inadeqite to mark someone elses work.
+
+However, when I started to mark more peoples work, I found similaries of problems that I had found and was able to provide solutions and improvements. I even was able to improve my own work having marking others work and discovering a new approach to a problem of layout.
+
+##Asking questions
+
+This has been a constant issue throughout the course. I am not confident enough to highlight my struggles and am embarrased by code. I have become frustrated at times as hours have been poured into projects for it to be all deleted and nothing to show for my time and effort.
+
+Perhaps if I had been able to ask more questions then I wouldn't have spent so many hours over simple issues.
+
+##Code sophistication
+
+This is another issue that I have struggled to improve as this appears to be an improve that can be made when the project is completed and only needs polishing. This perhaps could have improved the readability in my code and the layout.
+
+In the final weeks for my projects I'll attempt to improve my code sophistication to improve my confidence when presenting my work.
