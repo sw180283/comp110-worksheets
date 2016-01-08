@@ -1,6 +1,10 @@
 # Comp110 Worksheets
 Here are the following weekly report on my production and development of my worksheets.
 
+##Introduction
+
+The context of these reports are concerning the tinkering graphics and audio projects set during the first semester.
+
 ##Week 1 - Worksheet 1 _SpaceChem_
 During the introduction of each section, I learned new ways to reduce the number of symbols, or functions, required to complete each circuit. While following and attempting to test out different approaches to different required molecule shapes or reformation, I began to adapt faster solutions with fewer symbols used.
 
@@ -31,15 +35,21 @@ After our presentation, I would have improved it with better group communication
 
 Additional uses for JES have been demonstrated, such as the use of turtles to generate images and also image maniupulation. Altering the colour and pixel position would have great use for our COMP120 assignment which required image manipulation.
 
+I struggled with this task, and with the coding process. I immediately attempted to overcome my difficulty by approaching my lecturer. I spent time after class asking questions and practising further with this process and after an hour I created a functional program.
+
 After being assigned our pair programming groups, we have decided to compelte the tasks of creating an interactive mood board and power-ups. Both of these tasks involve sci-fi genre so interest our group.
 
 ##Week 5 - Picture Techniques & Essay Peer Reviews
 
 To complete our COMP120 assignment, we learnt more about picture techniques including changing colours based on certain colour ranges, found colour distances between two colours and also restricted these changes to certain pixels. I found this task difficult, confusing my getColor function assuming that getColor(black) was required instead of actually black.getColor().
 
+I tasked the evening to practising this technique and was able to create code which was able to change certain colours and manipulate the colour distances. To practise, I attempt to dedicate an hour in the evening after lecture to repeat in class demonstration.
+
 I also learned that when creating a function that requires the same colour more than once, and reuse code, the method could include the colour as a variable. E.g. def removeRedEye(color1,color2): where color1.getColor() is used instead.
 
 When learning the principle of Agile, including user stories, scrum & sprints; the process of backlog and assigning tasks are useful when maintaining achievable pace. Realistic pace is the goal not doubling work. Brook's Law gives reason to Agile, more people joining a group half way through a project reduces pace.
+
+For me, the relevant issue of time management meant this technique would improve this. As a next step, I should maintain use of achievable user stories and create a maintainable pace.
 
 Later in the week, we used peer review to evaluate our essays. It was useful to see how other students had approached their essay, but allowed me to review others reviews using the marking criteria. This meant that I could use the feedback that other people gave me but also was not able to critically review my own work using the same marking criteria.
 
@@ -51,7 +61,11 @@ While trying to keep the objective in mind, it was interesting to compare with w
 
 Creating the worksheets was partly confusing, as the depth of a flowchart is debatable, and the content is rather vague. I attempt to create a concise yet description guide on the flow of my project. The same was done for the pseudo code.
 
+In the next weeks tutor session, I shall idenify my struggles with this.
+
 ##Week 6
+
+Having discussing this with Ed, I'm now more confident with my understand with the flow chart and it's pseudo code.
 
 We were given an introduction to databases, OOP and additional guidance with our academic writing.
 
@@ -100,6 +114,8 @@ The alterations to the gravity system are difficult to manage. I haven't been ab
 ##Week x4
 
 My audio project is starting to produce some effects which could be used in my game theme tune. I'm confused on how to implement the parsing of notes however with further investigation I should be able to include this in my source code.
+
+I'll attempt to reference to the relevant reading material provide and create a pull request for my lecture to give guidance on how to tackle my difficulties.
 
 ##Week 11
 
