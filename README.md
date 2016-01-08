@@ -85,29 +85,29 @@ Having studied A level maths, I understood the common complexity classes graphs.
 
 Today we used peer review to give guidance to the final draft of our essays. I found this a useful task as I should see how other students approach to the same or different topic essay.
 
-##Week 11
+##Week x1
 
 I am struggling to use classes to improve the sophistication of my work. To make this work, I should seek guidance from lecturers and the internet. I am continuing to work through the Introduction to Python book to improve my understanding of Jython for my tinkering project.
 
-##Week 12
+##Week x2
 
 While working on my game app, I found a useful tutorial which uses flappy bird as an example. It's use of false gravity, menu screen, scoring system and object collision are things I need for my platformer game.
 
-##Week 13
+##Week x3
 
 The alterations to the gravity system are difficult to manage. I haven't been able to find a way to make the player stop their downward movements while allowing them to increase the velocity upwards when the button is pressed. In order to over come this issue, I'll atttempt to continue my research into other approaches to this gravity system while testing my code.
 
-##Week 14
+##Week x4
 
 My audio project is starting to produce some effects which could be used in my game theme tune. I'm confused on how to implement the parsing of notes however with further investigation I should be able to include this in my source code.
 
-##Week 15
+##Week 11
 
 For my tinkering graphics project, the obstacle of speed is reducing the engagement of the animations I am attempting to include. Perhaps if I did this task again, I would have used another program to increase speed.
 
-##Week 16
-
 With our peer reviews and lecturer feedback, I should be able to make the final edits to my tinkering projects. While I have struggled with the start of the course and time managment, I think that this project has improved my ability to review my peers work but also recognising mistakes in my own work.
+
+##Week 12
 
 #Weakness
 
