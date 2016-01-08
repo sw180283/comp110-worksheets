@@ -25,6 +25,10 @@ This is an example of how I have started to learn the basics about JES and how i
 
 ##Week 3 - Games Platform History Essay
 
+//group presentations / researching task
+//the same topic was covering the the same group
+//have a set plan and updating work to show group project
+
 The focus of this week was the start of our first essay, with group presentations that included work that our team had assembled together with individual focus on one console of the specified generation. It was a chance at our first group project and allowed different findings to group together which would help our research into our essay.
 
 After being given research information about how to collect and reference our sources, I have been given the task of researching into the SG-1000.
@@ -33,6 +37,10 @@ After our presentation, I would have improved it with better group communication
 
 ##Week 4 - Image Manipulation
 
+//turtles
+//struggled with class
+//immediately questioned lecturer after class and remained in class until code functional
+
 Additional uses for JES have been demonstrated, such as the use of turtles to generate images and also image maniupulation. Altering the colour and pixel position would have great use for our COMP120 assignment which required image manipulation.
 
 I struggled with this task, and with the coding process. I immediately attempted to overcome my difficulty by approaching my lecturer. I spent time after class asking questions and practising further with this process and after an hour I created a functional program.
@@ -40,6 +48,10 @@ I struggled with this task, and with the coding process. I immediately attempted
 After being assigned our pair programming groups, we have decided to compelte the tasks of creating an interactive mood board and power-ups. Both of these tasks involve sci-fi genre so interest our group.
 
 ##Week 5 - Picture Techniques & Essay Peer Reviews
+
+//colour ranges
+//struggled with distances
+//attempt to dedicate an hour to practise in class demonstration
 
 To complete our COMP120 assignment, we learnt more about picture techniques including changing colours based on certain colour ranges, found colour distances between two colours and also restricted these changes to certain pixels. I found this task difficult, confusing my getColor function assuming that getColor(black) was required instead of actually black.getColor().
 
@@ -85,6 +97,8 @@ The additional information on referencing and how python uses classes was helpfu
 
 We learned about memory allocation, usage and how to rewrite or expand memory space. We also looked at the use of lists and tuples, however it seemed confusing how pythons approach was different to other coding languages. The use of dictionaries was a useful method to consider when thinking about databases and creating referencing.
 
+I have spent additional research time on this topic and should attempt to include this into my database project.
+
 ##Week 9
 
 The use of modules provided more opportunity for making my tinkering code more sophisticated as it allowed for calling a module from a different program, similar to how kivy calls other files into the code.
@@ -99,17 +113,25 @@ Having studied A level maths, I understood the common complexity classes graphs.
 
 Today we used peer review to give guidance to the final draft of our essays. I found this a useful task as I should see how other students approach to the same or different topic essay.
 
+I should be able to finalise my essay using my review as guidance. As a reflection of my previous essay submission, I submitted my work to my lecturer for final evaluation to be confident in my referencing format. This provided an insightful addition to my approach and improve some of the formatting issues that had been missed.
+
 ##Week x1
 
 I am struggling to use classes to improve the sophistication of my work. To make this work, I should seek guidance from lecturers and the internet. I am continuing to work through the Introduction to Python book to improve my understanding of Jython for my tinkering project.
+
+I have consulted a variety of varying tutorials as to cleaning up code and improved sophistation, however I should attempt to consider my main objective as my focus.
 
 ##Week x2
 
 While working on my game app, I found a useful tutorial which uses flappy bird as an example. It's use of false gravity, menu screen, scoring system and object collision are things I need for my platformer game.
 
+This has caused an interruption to my tinkering project as I have struggled with management of projects. It is crucial that I maintain pace on my graphics and audio project while still working on my app and database project.
+
 ##Week x3
 
 The alterations to the gravity system are difficult to manage. I haven't been able to find a way to make the player stop their downward movements while allowing them to increase the velocity upwards when the button is pressed. In order to over come this issue, I'll atttempt to continue my research into other approaches to this gravity system while testing my code.
+
+If the gravity doesn't work by my next support session, I should identify this issue to my lecturer.
 
 ##Week x4
 
