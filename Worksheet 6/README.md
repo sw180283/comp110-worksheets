@@ -13,3 +13,6 @@
 
 [flow]: https://github.com/sw180283/comp110-worksheets/blob/master/Worksheet%206/Flow%20chart%20for%20jumping.png "Flow Diagram for UML"
 
+![alt text][sequence]
+
+[sequence]: https://github.com/sw180283/comp110-worksheets/blob/master/Worksheet%206/Sequence%20diagram%20for%20UML.png "Sequence Diagram for UML"
