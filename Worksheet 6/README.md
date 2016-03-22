@@ -3,4 +3,9 @@
 
 ![alt text][state]
 
-[state]: https://github.com/sw180283/comp110-worksheets/blob/master/Worksheet%206/State%20diagram%20for%20UML.png "State"
+[state]: https://github.com/sw180283/comp110-worksheets/blob/master/Worksheet%206/State%20diagram%20for%20UML.png "State Diagram for UML"
+
+![alt text][class]
+
+[class]: https://github.com/sw180283/comp110-worksheets/blob/master/Worksheet%206/Class%20diagram%20for%20UML.png "Class Diagram for UML"
+
