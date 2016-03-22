@@ -1,5 +1,21 @@
 #Worksheet 6
-
+```
+WHILE player is alive and game is running
+	Change animation to stationary
+	IF player is on ground	
+		IF player press jump button
+			WHILE player is not colliding with platform
+				FOR movement in max jump height
+					Change animation to jumping
+					Move sprite up y-axis
+				ENDFOR
+				 Change animation to falling
+				Move sprite down y-axis
+			ENDWHILE
+		ENDIF
+	ENDIF
+ENDWHILE
+```
 
 ![alt text][state]
 
