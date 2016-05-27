@@ -4,7 +4,7 @@
 #include "Map.h"
 #include "PathfindingApp.h"
 
-
+/*
 EuclideanDistance::EuclideanDistance(const Node& currentNode, const Node& nextNode)
 	: currentPoint(currentNode),
 	nextPoint(nextNode),
@@ -26,4 +26,4 @@ EuclideanDistance::EuclideanDistance(const Node& currentNode, const Node& nextNo
 
 EuclideanDistance::~EuclideanDistance()
 {
-}
+}*/

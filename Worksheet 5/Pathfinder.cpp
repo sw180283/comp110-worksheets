@@ -82,7 +82,7 @@ std::vector<Point> Pathfinder::findPath(const Map& map, const Point& start, cons
 std::vector<Point> Pathfinder::findPath(const Map& map, const Point& start, const Point& goal)
 {
 	//closeSet{}
-	std::vector<Node> closedSet;
+	std::vector<std::shared_ptr<Node>> closedSet;
 
 	//if dir==4
 	const int dir = 4;
@@ -93,7 +93,7 @@ std::vector<Point> Pathfinder::findPath(const Map& map, const Point& start, cons
 	auto startNode = std::make_shared<Node>(start.getX(), start.getY());
 	auto goalNode = std::make_shared<Node>(goal.getX(), goal.getY());
 
-	std::priority_queue<Node, std::vector<Node>, ComparePriority> openSet;
+	std::priority_queue<std::shared_ptr<Node>, std::vector<std::shared_ptr<Node>>, ComparePriority> openSet;
 	openSet.push(startNode);
 
 	//startNode.g<-0
@@ -107,16 +107,17 @@ std::vector<Point> Pathfinder::findPath(const Map& map, const Point& start, cons
 
 	//while openSet is not empty do
 	while (!openSet.empty())
+	{
 
 		//currentNode<- node in openSet with lowest g+h score
-		Node currentNode(openSet.top());
+		auto currentNode = openSet.top();
 		//auto currentNode = std::make_shared<Node>(start.getX(), start.getY());
 
 		//if currentNode = goalNode then
-		if currentNode = goalNode
+		if (currentNode == goalNode)
 		{
 			//return RECONSTRUCTPATH(goalNode)
-			return ReconstructPath(goalNode);
+			return reconstructPath(goalNode);
 		}
 		//end if
 
@@ -130,20 +131,20 @@ std::vector<Point> Pathfinder::findPath(const Map& map, const Point& start, cons
 		static int i;
 		for (i = 0; i < dir; i++)
 		{
-			double currentXPos = currentNode.getX();
-			double curerntYPos = currentNode.getY();
+			double currentXPos = currentNode->point.getX();
+			double currentYPos = currentNode->point.getY();
 			double nextXPos = currentXPos + x[i];
 			double nextYPos = currentYPos + y[i];
-			const Point& neighbourNode = (nextXPos, nextYPos);
+			const Point neighbourNode (nextXPos, nextYPos);
 
 			//if neighbourNode is not a wall and neighbourNode not in closedSet then
-			if (neighbourNode != map.isWall && != closedSet)
+			if (neighbourNode != map.isWall && std::find(closedSet.begin(), closedSet.end(), neighbourNode) == closedSet.end())
 			{
 				//gtentative<-currentNode.g+EUCLIDEANDISTANCE(currentNode, neighbourNode)
-				double gTentative = currentNode.g + euclideanDistance(currentNode, neighbourNode);
+				double gTentative = currentNode->g + euclideanDistance(currentNode->point, neighbourNode);
 
 				//if neighbourNode not in openSet or gtentative < neighbourNode.g then
-				if (neightbourNode != openSet || gTentative < neighbourNode.g)
+				if (neighbourNode != openSet || gTentative < neighbourNode->g)
 				{
 					//neighbourNode.g = gtentative
 					neighbourNode.g = gTentative;
@@ -157,34 +158,41 @@ std::vector<Point> Pathfinder::findPath(const Map& map, const Point& start, cons
 						Node neighbourNode(openSet.top());
 
 					}
-
 				}
 				//end if
 			}
 			//end if
 		}
 		//end for
-
+	}
 	//end while
 
 	//return "Failed to find a path"
+
 //end procedure
 }
 
 //RECONSTRUCTPATH(goalNode)
-
+std::vector<Point> Pathfinder::reconstructPath(std::shared_ptr<Node> goalNode)
+{
 	//path<-{}
+	std::vector<Point> result;
 
 	//currentNode <-goalNode
+	for (auto currentNode = goalNode; currentNode; currentNode = currentNode->cameFrom)
+	{
 
 	//while currentNode!=null do
-
 		//add currentNode to the beginning of path
-
+		result.insert(result.begin(), currentNode->point);
 		//currentNode<-currentNode.cameFrom
-
+	}
 	//end while
 
 	//return path
+	return result;
 
 //end procedure
+
+
+

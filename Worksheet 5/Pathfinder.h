@@ -17,8 +17,7 @@ public:
 			return leftFValue > rightFValue;
 		}
 	};
-	std::shared_ptr<Node> getOrCreateNode(int x, int y);
-	std::vector<std::shared_ptr<Node>> getNeighbours(std::shared_ptr<Node> node);
+	std::vector<Point> reconstructPath(std::shared_ptr<Node> goalNode);
 	std::vector<std::vector<std::shared_ptr<Node>>> nodes;
 
 	double nodeScore;

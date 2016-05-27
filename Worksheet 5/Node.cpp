@@ -5,7 +5,7 @@
 #include "PathfindingApp.h"
 
 Node::Node(const Point& point)
-	: point(point),
+	: point(point)
 {
 }
 /*
