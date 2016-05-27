@@ -54,21 +54,8 @@ std::string getGuess()
 					std::cout << "That's not a letter!" << std::endl;
 				}
 
-				return guess;
 			}
-			/*
-			for each (char c in guess)
-			{
-				newGuess.append(.append(toupper(c));
-				
-				if (!isalpha(c))
-				{
-					std::cout << "That's not a letter!" << std::endl;
-				}
-				
-			}
-			return newGuess;
-			*/
+			return guess;
 		}
 		else
 		{
@@ -79,7 +66,7 @@ std::string getGuess()
 
 int main()
 {
-
+	int lives = 3;
 	// Seed the random number generator with the current time,
 	// to ensure different results each time the program is run
 	srand(static_cast<unsigned int>(time(nullptr)));
@@ -115,15 +102,10 @@ int main()
 	//std::string partialWord(secret.length(), '-');
 	std::string attemptWord(secret.length(), '-');
 
-	int lives = 3;
-	char symbol = '*';
-	int l = 0;
-	//std::string livesRemaining(lives, symbol);
-
-	//bool gameOver = false;
-	//while (!gameOver)
 	while (true)
 	{
+		char symbol = '*';
+		int likeness = 0;
 
 		//std::cout << partialWord << std::endl;
 		std::cout << attemptWord << std::endl;
@@ -132,58 +114,40 @@ int main()
 		std::string guess = getGuess();
 
 		std::cout << "You entered " << guess << std::endl;
-		std::cout << "Attempts remaining: " << std::string(lives, symbol) << std::endl;
-		std::cout << "Likeness: " << l << std::endl;
+		//std::cout << "Likeness: " << likeness << std::endl;
 
 		bool found = false;
 		//bool similar = false;
 
 		for (int i = 0; i < secret.length(); i++)
 		{
-			for (int c = 0; c < guess.length(); c++)
+			char secretletter = secret[i];
+			char guessletter = guess[i];
+
+			if (guess[i] == secret[i])
 			{
-				char secretletter = secret[i];
-				//std::cout << secretletter << std::endl;
-				std::cout << secret[i] << std::endl;
-				char guessletter = guess[c];
-				//std::cout << guessletter << std::endl;
-				std::cout << guess[c] << std::endl;
-				//if (guessletter == secretletter)
-				if (guess[c] == secret[i])
-				{
-					l++;
-					if (l > 4)
-					{
-						std::cout << "You win! The word was " << secret << std::endl;
-						found = true;
-					}
-				}
-				
+				likeness+=1;
 			}
 		}
+		std::cout << "Likeness: " << likeness << std::endl;
 
-		//}
-		/*
-		if (l = 5)
+		
+		if (likeness == 5)
 		{
 			std::cout << "You win! The word was " << secret << std::endl;
-			found = true;
-			//break;
 		}
 		
-		*/
-		if (!found)
+		if (likeness < 5)
 		{
-			lives--;
-			if (lives <= 0)
-			{
-				std::cout << "You lose :( The word was " << secret << std::endl;
-				//gameOver = true;
-				//break;
-			}
+			lives-=1;
+			std::cout << "Attempts remaining: " << std::string(lives, symbol) << std::endl;
+		}
+
+		if (lives <= 0)
+		{
+			std::cout << "You lose :( The word was " << secret << std::endl;
 		}
 	}
-
     return 0;
 }
 
