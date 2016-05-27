@@ -1,0 +1,16 @@
+##Pseudo Code for rotation
+
+PROGRAM: PowerUpRotation  
+  Load programme  
+  Assign image to file pick  
+  Create canvas  
+  Import the image to the canvas in the center position  
+  Display image  
+  
+  IF user presses space bar:
+    Scale pixels inwards into negative of original position  
+    Scale pixels outwards to give appearance of 2D rotation  
+    
+  IF user presses escape:
+    Close program
+  END.
