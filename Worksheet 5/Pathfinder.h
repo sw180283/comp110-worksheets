@@ -2,14 +2,11 @@
 
 #include "Map.h"
 
-enum class NodeStatus { None, Closed, Open };
-
 class Pathfinder
 {
 public:
-
 	struct ComparePriority
-	{//bool operator <(
+	{
 		bool operator()(const std::shared_ptr<Node>& left, const std::shared_ptr<Node>& right)
 		{
 			double leftFValue = left->g + left->h;
@@ -19,6 +16,7 @@ public:
 	};
 	std::vector<Point> reconstructPath(std::shared_ptr<Node> goalNode);
 	std::vector<std::vector<std::shared_ptr<Node>>> nodes;
+	bool Pathfinder::isInOpenSet(std::shared_ptr<Node> node);
 
 	double nodeScore;
 	double lowestScore;
